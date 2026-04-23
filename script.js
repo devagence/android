@@ -62,7 +62,7 @@ var battery=scores[k].device.battery;
 var model=scores[k].device.phone;
 var ip=scores[k].device.rooted;
 var uid=scores[k].device.id;
-uo2.innerHTML+='<br><div class="usr" >'+model+' <span style="float:right" >'+aversion+'</span><br><br>Rooted: '+ip+' <span style="float:right" >Battery: '+battery+' </span><br><br><center><button onclick="setdev('+"'"+uid+"'"+')">Manage</button></center></div> '; 
+uo2.innerHTML+='<br><div class="usr" >'+model+' <span style="float:right" >'+aversion+'</span><br><br>Rooted: '+ip+' <span style="float:right" >Battery: '+battery+' </span><br><br><center><button onclick="setdev('+"'"+uid+"'"+')">Attack</button></center></div> '; 
 }
 }
 else{
